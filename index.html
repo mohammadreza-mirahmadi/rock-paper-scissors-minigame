@@ -4,6 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- a container for hold the main content in the center of screen -->
+    <section class="center-container">
+      <!-- bot section -->
+      <section class="bot-player">
+        <div class="container">
+          <div class="card bot-card">
+            <img src="./img/noun-bot.svg" alt="Bot Player" class="bot-img" />
+          </div>
+          <div class="card bot-card__scissors" data-id="scissors">
+            <img
+              src="./img/noun-scissors.svg"
+              alt="Scissors"
+              class="scissors-img"
+            />
+          </div>
+          <div class="card bot-card__paper" data-id="paper">
+            <img src="./img/noun-hand.svg" alt="Paper" class="paper-img" />
+          </div>
+          <div class="card bot-card__rock" data-id="rock">
+            <img src="./img/noun-fist.svg" alt="Rock" class="rock-img" />
+          </div>
+        </div>
+      </section>
+      <!-- a test section to show the winer! -->
+      <section class="showWiner">
+        <p class="showWinerText"></p>
+      </section>
+      <!-- user section -->
+      <section class="user-player">
+        <div class="container">
+          <div class="card user-card">
+            <img
+              src="./img/noun-person.svg"
+              alt="User Player"
+              class="user-img"
+            />
+          </div>
+          <div class="card user-card__scissors" data-id="scissors">
+            <img
+              src="./img/noun-scissors.svg"
+              alt="Scissors"
+              class="scissors-img"
+            />
+          </div>
+          <div class="card user-card__paper" data-id="paper">
+            <img src="./img/noun-hand.svg" alt="Paper" class="paper-img" />
+          </div>
+          <div class="card user-card__rock" data-id="rock">
+            <img src="./img/noun-fist.svg" alt="Rock" class="rock-img" />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="./scripts.js"></script>
+  </body>
 </html>

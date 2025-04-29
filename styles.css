@@ -1,0 +1,92 @@
+/* reset the styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* main container (the center container) */
+.center-container {
+  width: 28rem;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: column;
+  justify-content: space-between;
+}
+
+/* common rules (common styles) */
+.container {
+  position: relative;
+}
+.card {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  border: 0.5rem black solid;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+}
+.scissors-img {
+  width: 100%;
+}
+.paper-img {
+  width: 100%;
+}
+.rock-img {
+  width: 100%;
+}
+
+/* bot section */
+.bot-player {
+  width: 28rem;
+  height: 19rem;
+  background-color: #ebeac2;
+}
+.bot-card {
+  left: 10rem;
+  top: 1rem;
+}
+.bot-card__scissors {
+  left: 1rem;
+  top: 1rem;
+}
+.bot-card__paper {
+  left: 10rem;
+  top: 10rem;
+}
+.bot-card__rock {
+  right: 1rem;
+  top: 1rem;
+}
+.bot-img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+/* user section */
+.user-player {
+  width: 28rem;
+  height: 19rem;
+  background-color: #ebeac2;
+}
+.user-card {
+  left: 10rem;
+  top: 10rem;
+}
+.user-card__scissors {
+  left: 1rem;
+  top: 10rem;
+}
+.user-card__paper {
+  left: 10rem;
+  top: 1rem;
+}
+.user-card__rock {
+  right: 1rem;
+  top: 10rem;
+}
